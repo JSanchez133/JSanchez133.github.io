@@ -1,17 +1,13 @@
-h1, h3, p {
-  text-align: center;
+h1, h3, p{
+  color: #FF00FF
 }
-input, button {
-  display:inline-block;
-}
-
 #input_holder {
   width: 235px;
   margin: 0 auto;
 }
 
 #feedback {
-  height: 30px;
+  height: 40px;
 }
 
 #guess_counter{
