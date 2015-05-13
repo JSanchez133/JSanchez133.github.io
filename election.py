@@ -9,5 +9,5 @@ for i in range(10000): # start everything below te range
   if randint(1,100) <= 17: random selection of number between 1-100. If number is between 1-17 then add 1 to the amount of wins
     wins=wins+1 # add 1 to amount of wins
   if wins>=2 # compare amount of wins and see if its greater than or equal to 2
-winning= (total/((float(10000))) # divide range of float to total wins
+percentage = (total/float(10000)) * 100 # divide range of float to total wins
 print "your possibility in winning is %s" %possibility # print the possibilitiy of winning 
