@@ -10,4 +10,4 @@ for i in range(10000): # start everything below te range
     wins=wins+1 # add 1 to amount of wins
   if wins>=2 # compare amount of wins and see if its greater than or equal to 2
 percentage = (total/float(10000)) * 100 # divide range of float to total wins
-print "your possibility in winning is %s" %possibility # print the possibilitiy of winning 
+print "chances of winning are" + str(percentage) # print the possibilitiy of winning 
